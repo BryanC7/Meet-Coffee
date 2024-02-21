@@ -21,10 +21,6 @@ h2 {
     box-sizing: inherit;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 /* Navbar */
 
@@ -59,11 +55,8 @@ h2 {
 
 .img-hero {
     width: 100%;
-    height: 400px;
-    object-fit: none;
-    position: absolute;
-    left: 0;
-    top: 0;
+    height: 450px;
+    object-fit: cover;
 }
 
 .text-hero {
@@ -71,18 +64,43 @@ h2 {
     z-index: 100;
     position: absolute;
     color: white;
-    left: 1000px;
-    top: 100px;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: right;
 }
 
 .title-hero {
-    text-align: right;
     font-weight: bold;
 }
 
 .subtitle-hero {
-    text-align: right;
     font-weight: lighter;
 }
 
 /* Main */
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-1 {
+    margin: 100px 0;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    padding: 50px;
+}
+
+.text-footer {
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    margin: 0;
+    font-size: 1.2rem;
+}
